@@ -1,7 +1,7 @@
 title: "HIZHOON"
 email: know0510@gmail.com
 timezone: UTC
-baseurl: "hizhoon.github.io"
+baseurl: "https://hizhoon.github.io"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
