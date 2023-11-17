@@ -113,9 +113,11 @@ gtag('config', '{{site.ganalytics}}');
 
   <ul class="p-0 mb-1 small">
     {% for item in site.data.menus.footermenu %}
+      {% unless item.title == 'download' %}
     <li>
       <a href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
     </li>
+      {% endunless %}
     {% endfor %}
     </ul>
     <div class="copyright small">
