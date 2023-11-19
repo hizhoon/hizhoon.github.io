@@ -4,11 +4,11 @@ topmenu:
 - title: Home
   url: ""
 
-- title: About
-  url: "about/"
-
 - title: Categories
   url: "https://hizhoon.github.io/categories/"
+
+- title: About
+  url: "about/"
 
 # Footer Menu
 footermenu:
@@ -19,5 +19,5 @@ footermenu:
 - title: Privacy Policy
   url: "privacy-policy/"
 
-- title: Contact
-  url: "contact/"
+- title: About
+  url: "about/"
