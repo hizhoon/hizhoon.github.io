@@ -8,7 +8,7 @@ topmenu:
   url: "about/"
 
 - title: Categories
-  url: "/categories.html"
+  url: "categories/"
 
 # Footer Menu
 footermenu:
