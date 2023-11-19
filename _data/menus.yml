@@ -7,8 +7,8 @@ topmenu:
 - title: About
   url: "about/"
 
-- title: Contact
-  url: "contact/"
+- title: Categories
+  url: "/categories.html"
 
 # Footer Menu
 footermenu:
