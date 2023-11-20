@@ -5,7 +5,7 @@ topmenu:
   url: ""
 
 - title: Categories
-  url: "https://hizhoon.github.io/categories/"
+  url: "categories/"
 
 - title: About
   url: "about/"
