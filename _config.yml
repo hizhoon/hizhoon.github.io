@@ -4,7 +4,7 @@ timezone: UTC
 url: "https://hizhoon.github.io"
 baseurl: ""
 permalink: "/:title/"
-logo: 'assets/images/logo.png'
+logo: 'assets/images/intro.svg'
 favicon: 'assets/images/favicon.ico'
 author: Hizhoon
 paginate: 30
@@ -28,7 +28,7 @@ authors:
   hizhoon:
     name: Hizhoon
     display_name: Hizhoon
-    avatar: 'assets/images/sal.png'
+    avatar: 'assets/images/intro.svg'
     email: know0510@gmail.com
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: null
