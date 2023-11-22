@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Sitemap: https://hizhoon.github.io/sitemap.xml
