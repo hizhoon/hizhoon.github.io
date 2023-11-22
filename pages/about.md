@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: "/about/"
-image: assets/images/screenshot.png
+image: assets/images/intro.svg
 ---
 
 이 블로그는 저의 기록을 담기 위해 만들어졌습니다. <br>This blog was created to contain my records.
