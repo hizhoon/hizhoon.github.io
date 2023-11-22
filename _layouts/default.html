@@ -139,7 +139,30 @@ gtag('config', '{{site.ganalytics}}');
 ================================================== -->    
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>   
 <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>   
-<script src="{{ site.baseurl }}/assets/js/theme.js"></script>    
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+
+<!-- <script>
+    // 변환 스크립트 (예: convert_ads.js)
+    const fs = require('fs');
+    // 대체할 광고 코드
+    const adCode1 = '<div><ins class="kakao_ad_area" style="display:none;"
+data-ad-unit = "DAN-VYfS06jAKboMHNYp"
+data-ad-width = "300"
+data-ad-height = "250"></ins>
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script></div>';
+    // 변환 함수
+    function convertAds(markdownContent) {
+        return markdownContent
+        .replace('<!--카카오 광고1-->', adCode1);
+    }
+    // Markdown 파일 읽기 경로 수정해야함.
+    const mdFilePath = 'path/to/your/markdown/file.md';
+    const markdownContent = fs.readFileSync(mdFilePath, 'utf-8');
+    // 변환된 내용 얻기
+    const convertedContent = convertAds(markdownContent);
+    // 변환된 내용을 원래 파일에 쓰기
+    fs.writeFileSync(mdFilePath, convertedContent, 'utf-8');
+</script> -->
     
 </body>
     
