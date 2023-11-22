@@ -4,7 +4,7 @@ timezone: UTC
 url: "https://hizhoon.github.io"
 baseurl: ""
 permalink: "/:title/"
-logo: 'assets/images/logof.png'
+logo: 'assets/images/logof2.png'
 favicon: 'assets/images/favicon.ico'
 author: Hizhoon
 paginate: 30
