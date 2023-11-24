@@ -44,6 +44,33 @@ gtag('js', new Date());
 gtag('config', '{{site.ganalytics}}');
 </script>
 {% endif %}
+
+<style>
+    .category-container {
+        cursor: pointer;
+    }
+    .category-content {
+        display: none;
+    }   
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const categoryContainers = document.querySelectorAll('.category-container');
+
+        categoryContainers.forEach(function (container) {
+            container.addEventListener('click', function () {
+                const content = container.nextElementSibling;
+
+                if (content.style.display === 'none') {
+                    content.style.display = 'block';
+                } else {
+                    content.style.display = 'none';
+                }
+            });
+        });
+    });
+</script>
    
 </head>   
     
